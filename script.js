@@ -163,7 +163,7 @@
     submitBtn.classList.add('sending');
     statusEl.textContent = 'Transmitting message...';
     setTimeout(function () {
-      statusEl.textContent = '✓ Signal received. Thanks, ' + name + ' — I\'ll reply within 1–2 days.';
+      statusEl.textContent = '✓ Signal received. Thanks, ' + name + ' — I\'ll reply soon...';
       submitBtn.classList.remove('sending');
       form.reset();
       updateSignal();
