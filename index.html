@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M Assam — Computer Scientist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo" data-target="hero">
+      <span class="logo-hex">MA</span>
+      <span class="logo-text">muhammad<span>.</span>assam</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about" data-target="about">About</a>
+      <a href="#skills" data-target="skills">Skills</a>
+      <a href="#work" data-target="work">Work</a>
+      <a href="#contact" data-target="contact">Contact</a>
+      <span class="nav-underline" id="nav-underline" aria-hidden="true"></span>
+    </nav>
+
+    <a href="#contact" class="nav-cta">Let's talk</a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <ul>
+    <li style="--d:0"><a href="#hero" data-target="hero">Home</a></li>
+    <li style="--d:1"><a href="#about" data-target="about">About</a></li>
+    <li style="--d:2"><a href="#skills" data-target="skills">Skills</a></li>
+    <li style="--d:3"><a href="#work" data-target="work">Work</a></li>
+    <li style="--d:4"><a href="#contact" data-target="contact">Contact</a></li>
+  </ul>
+  <div class="mobile-menu-foot">muhammadassam@gmail.com</div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="hero">
+  <div class="grid-floor" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="scan-line" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <div class="eyebrow"><span class="dot-live"></span>Available for new projects</div>
+    <h1 class="hero-title">
+      <span class="reveal-word">MUAHAMMAD</span>
+      <span class="reveal-word accent">ASSAM</span>
+    </h1>
+    <p class="hero-sub reveal-fade">Full-stack Computer Scientist building resilient systems and clean interfaces — from database schema to deployed product.</p>
+    <div class="hero-actions reveal-fade">
+      <a href="#work" class="btn btn-primary">View my work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="hud-stats reveal-fade">
+    <div class="hud-stat"><span class="hud-num">2+</span><span class="hud-label">Years exp.</span></div>
+    <div class="hud-stat"><span class="hud-num">10+</span><span class="hud-label">Projects</span></div>
+    <div class="hud-stat"><span class="hud-num">5</span><span class="hud-label">OSS contribs</span></div>
+  </div>
+<br>
+  <div class="scroll-cue" aria-hidden="true"><span>SCROLL</span><i></i></div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section id="about" class="section">
+  <div class="section-head">
+    <span class="section-label">About</span>
+    <h2 class="section-title">Who's behind the code</h2>
+  </div>
+
+  <div class="about-grid">
+    <div class="profile-frame reveal">
+      <span class="corner tl"></span><span class="corner tr"></span>
+      <span class="corner bl"></span><span class="corner br"></span>
+      <div class="ring ring-1" aria-hidden="true"></div>
+      <div class="ring ring-2" aria-hidden="true"></div>
+      <div class="avatar-mark">MA</div>
+    </div>
+
+    <div class="about-text reveal">
+      <p class="lead">I started out breaking things on a hand-me-down laptop, and never really stopped.</p>
+      <p>Today I design and ship full-stack products used by real teams — obsessing over the small details that make software feel effortless. I care equally about a clean database schema and a UI that feels alive.</p>
+
+      <div class="fact-grid">
+        <div class="fact"><span class="fact-k">Location</span><span class="fact-v">Remote / Worldwide</span></div>
+        <div class="fact"><span class="fact-k">Focus</span><span class="fact-v">Backend systems, dev tooling</span></div>
+        <div class="fact"><span class="fact-k">Currently</span><span class="fact-v">Learning Rust &amp; distributed systems</span></div>
+        <div class="fact"><span class="fact-k">Open to</span><span class="fact-v">Freelance · full-time · collabs</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section id="skills" class="section">
+  <div class="section-head">
+    <span class="section-label">Skills</span>
+    <h2 class="section-title">Proficiency by domain</h2>
+  </div>
+
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <svg class="gauge" viewBox="0 0 120 120">
+        <circle class="gauge-track" cx="60" cy="60" r="52"></circle>
+        <circle class="gauge-fill" cx="60" cy="60" r="52" data-pct="92" style="--pct:92"></circle>
+      </svg>
+      <div class="gauge-num"><span class="count" data-count="92">0</span>%</div>
+      <div class="skill-name">Frontend</div>
+      <div class="skill-tools">React · Next.js · TypeScript</div>
+    </div>
+
+    <div class="skill-card reveal">
+      <svg class="gauge" viewBox="0 0 120 120">
+        <circle class="gauge-track" cx="60" cy="60" r="52"></circle>
+        <circle class="gauge-fill accent-magenta" cx="60" cy="60" r="52" data-pct="88" style="--pct:88"></circle>
+      </svg>
+      <div class="gauge-num"><span class="count" data-count="88">0</span>%</div>
+      <div class="skill-name">Backend</div>
+      <div class="skill-tools">Node.js · Go · PostgreSQL</div>
+    </div>
+
+    <div class="skill-card reveal">
+      <svg class="gauge" viewBox="0 0 120 120">
+        <circle class="gauge-track" cx="60" cy="60" r="52"></circle>
+        <circle class="gauge-fill accent-amber" cx="60" cy="60" r="52" data-pct="78" style="--pct:78"></circle>
+      </svg>
+      <div class="gauge-num"><span class="count" data-count="78">0</span>%</div>
+      <div class="skill-name">DevOps</div>
+      <div class="skill-tools">Docker · AWS · CI/CD</div>
+    </div>
+
+    <div class="skill-card reveal">
+      <svg class="gauge" viewBox="0 0 120 120">
+        <circle class="gauge-track" cx="60" cy="60" r="52"></circle>
+        <circle class="gauge-fill" cx="60" cy="60" r="52" data-pct="85" style="--pct:85"></circle>
+      </svg>
+      <div class="gauge-num"><span class="count" data-count="85">0</span>%</div>
+      <div class="skill-name">Databases</div>
+      <div class="skill-tools">PostgreSQL · Redis · SQL</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section id="work" class="section">
+  <div class="section-head">
+    <span class="section-label">Selected Work</span>
+    <h2 class="section-title">Recent builds</h2>
+  </div>
+
+  <div class="work-grid">
+
+    <article class="work-card reveal">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+      <div class="work-top">
+        <h3>Ecommerce Platform</h3>
+        <span class="tag tag-live">production</span>
+      </div>
+      <p>A headless commerce platform handling checkout, inventory sync, and analytics for mid-size retailers.</p>
+      <div class="work-tags"><span>Next.js</span><span>Stripe</span><span>PostgreSQL</span></div>
+      <div class="work-links"><a href="#">Live demo ↗</a><a href="#">Source ↗</a></div>
+    </article>
+
+    <article class="work-card reveal">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+      <div class="work-top">
+        <h3>Shop POS </h3>
+        <span class="tag tag-oss">open source</span>
+      </div>
+      <p>An open-source POS website designed for small business setups.</p>
+      <div class="work-tags"><span>REACT</span><span>EXPRESS</span><span>SQLITE</span></div>
+      <div class="work-links"><a href="https://assam33.github.io/my-shop-pos/">Live demo ↗</a><a href="#">Source ↗</a></div>
+    </article>
+
+    <article class="work-card reveal">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+      <div class="work-top">
+        <h3>Realtime Dashboard</h3>
+        <span class="tag tag-live">production</span>
+      </div>
+      <p>A WebSocket-driven analytics dashboard visualizing live event streams for internal ops teams.</p>
+      <div class="work-tags"><span>React</span><span>WebSockets</span><span>D3.js</span></div>
+      <div class="work-links"><a href="#">Live demo ↗</a><a href="#">Source ↗</a></div>
+    </article>
+
+    <article class="work-card reveal">
+      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
+      <div class="work-top">
+        <h3>API Gateway</h3>
+        <span class="tag tag-internal">internal</span>
+      </div>
+      <p>A lightweight gateway service handling auth, rate limiting, and routing for a microservice fleet.</p>
+      <div class="work-tags"><span>FastAPI</span><span>Redis</span><span>Docker</span></div>
+      <div class="work-links"><a href="#">Live demo ↗</a><a href="#">Source ↗</a></div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="section">
+  <div class="section-head">
+    <span class="section-label">Contact</span>
+    <h2 class="section-title">Let's build something</h2>
+  </div>
+
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <p>Have a project in mind, or just want to say hi? My inbox is open.</p>
+      <a class="contact-link" href="mailto:muhammadassam33@gmail.com">
+        <span class="ci-label">Email</span><span class="ci-value">muhammadassam33@gmail.com</span>
+      </a>
+      <a class="contact-link" href="#" target="_blank" rel="noopener">
+        <span class="ci-label">GitHub</span><span class="ci-value">github.com/assam</span>
+      </a>
+      <a class="contact-link" href="#" target="_blank" rel="noopener">
+        <span class="ci-label">LinkedIn</span><span class="ci-value">linkedin.com/in/muhammadassam</span>
+      </a>
+    </div>
+
+    <form class="transmit-form reveal" id="contact-form">
+      <div class="signal-bars" id="signal-bars" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i>
+      </div>
+
+      <label for="f-name">Name</label>
+      <input id="f-name" name="name" type="text" placeholder="Hello" required>
+
+      <label for="f-email">Email</label>
+      <input id="f-email" name="email" type="email" placeholder="abc@gmail.com" required>
+
+      <label for="f-msg">Message</label>
+      <textarea id="f-msg" name="message" placeholder="Tell me about your project..." required></textarea>
+
+      <button type="submit" class="btn btn-primary btn-block">
+        <span class="btn-label">Transmit message</span>
+        <span class="btn-progress"></span>
+      </button>
+      <div class="form-status" id="form-status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <span class="footer-blip"></span>
+  <span>> 2026 Muhammad Assam. Built with care.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
